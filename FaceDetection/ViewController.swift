@@ -26,6 +26,8 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
 
     @IBOutlet weak var lblResult: UILabel!
     
+    //mnjnj
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
             
             if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
